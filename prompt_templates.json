@@ -1,0 +1,8 @@
+{
+    "single_module": "I will provide a Python module, then a series of unit tests targeting that module. First, here is the Python module. [module-under-test]",
+    "multiple_modules_1": "I will provide {M} Python modules, then a series of unit tests targeting those modules. Here is the first Python module. [module-under-test]",
+    "multiple_modules_2": "Here is the next Python module. [module]",
+    "unit_test": "I will now provide each unit test individually. After making the requested changes to each, incorporate each into a single test suite. The test suite should have the following import statements: {import statements}",
+    "test_cases": "I have written the following pytest test case for the previously uploaded Python file: {test code} Make the following changes to the test case, in the order they are listed. Use the resulting modified test case following a change to make the subsequent change. The changes are, in order: add constants inside of the test case, separate setup, execution, and assertion, remove unnecessary assertions, add a meaningful test name, use meaningful variable names, format the code according to PEP 8. After making these changes, add comments to explain the purpose of the test, actions taken, and code coverage achieved by the modified test case. Add the final test case to the test suite.",
+    "test_suite": "I have finished creating the test suite. Provide the test suite as a file."
+}
