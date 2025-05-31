@@ -29,7 +29,7 @@ if __name__ == '__main__':
     modules = [f for f in os.listdir('.') if not f.startswith('.') and os.path.isdir(f) and f != '__pycache__']
     
     parser = argparse.ArgumentParser(description="add model")
-    parser.add_argument("--model", type=str, default='codellama:7b')
+    parser.add_argument("--model", type=str, default='mistral-small3.1:latest')
     args = parser.parse_args()
     
     model = args.model
